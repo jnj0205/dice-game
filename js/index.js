@@ -31,7 +31,7 @@ if (JSON.stringify(dice)===JSON.stringify(full_house)){
     return score
 }
 console.log(score)
-for (const [key, value] in Object.entries(points)){
+for (const [key, value] of Object.entries(points)){
     if (key === '1'){
         if (value >= 3){
             score += 1000
