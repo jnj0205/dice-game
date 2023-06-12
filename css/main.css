@@ -1,0 +1,25 @@
+body {
+    background-color:  #b0cfce;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+  
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.butn{
+    background: #c62d2d;
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+  
+ 
